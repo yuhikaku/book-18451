@@ -1,0 +1,97 @@
+body {
+  padding-bottom: 25vh;
+}
+
+a,
+a:visited {
+  color: #1d7484;
+}
+
+header {
+  font-size: 16px;
+  text-align: end;
+  margin-bottom: 2em;
+}
+header a::before {
+  content: "["
+}
+header a::after {
+  content: "]"
+}
+
+h1 {
+  font-size: 2.2em;
+  margin-bottom: 2em;
+}
+
+h2 {
+  margin-top: 80px;
+  font-size: 1.75em;
+  border-bottom: 2px solid #afafaf;
+}
+
+h2 span {
+  color: gray;
+  font-size: 0.6em;
+}
+
+h3 {
+  font-size: 1.25em;
+  margin-top: 60px;
+}
+
+h2 + h3 {
+  margin-top: 40px;
+}
+
+p {
+  text-align: justify;
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+footer {
+  border-top: 1px solid gray;
+  margin-top: 6em;
+}
+footer .content {
+  margin: 0 1em;
+}
+
+footer .content h1 {
+  text-align: start;
+  font-size: 0.9em;
+}
+footer .content h1::before {
+  content: "■";
+}
+footer .content h2 {
+  font-size: 1em;
+  border: none;
+  margin: 0;
+}
+footer .content ul {
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+footer .content img {
+  margin: 10px 0;
+  height: 300px;
+}
+
+.before {
+  background: #f0dcdc;
+}
+.before em {
+  color: #b90d0d;
+}
+.after {
+  background: #c1f0b8;
+}
+.after em {
+  color: #19803b;
+}
