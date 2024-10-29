@@ -9,14 +9,22 @@ a:visited {
 
 header {
   font-size: 16px;
-  text-align: end;
   margin-bottom: 2em;
 }
-header a::before {
-  content: "["
+header div.to-repo {
+  color: gray;
+  text-align: end;
+  font-size: 9pt;
+  margin-bottom: 1em;
 }
-header a::after {
-  content: "]"
+header div.to-site {
+  text-align: end;
+}
+header div.to-site a::before {
+  content: "[";
+}
+header div.to-site a::after {
+  content: "]";
 }
 
 h1 {
